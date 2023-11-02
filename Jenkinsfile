@@ -4,8 +4,9 @@ pipeline {
     environment {
         IMAGE_TAG = "$BUILD_NUMBER"
         DOCKERHUB_USERNAME = "aakkiiff"
-        GIT_REPO = "https://github.com/aakkiiff/Dipti_seminar" 
-        CLIENT_APP_NAME = "dipti_frontend"
+        GIT_REPO = "https://github.com/aakkiiff/ci_cd_demo.git"
+
+        CLIENT_APP_NAME = "demo_frontend"
         CLIENT_APP_IMAGE = "${DOCKERHUB_USERNAME}/${CLIENT_APP_NAME}"
      }
 
@@ -41,6 +42,12 @@ pipeline {
 
                     sh'docker logout'
                 }
+            }
+        }
+
+        stage("TRIGGERING THE CONFIG PIPELINE"){
+            steps{
+                build job: 'demo_config', parameters: [string(name: 'IMAGE_TAG', value: env.IMAGE_TAG)]
             }
         }
         
