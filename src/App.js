@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Hello, audience of DEVOPS ENGINEERING CAREER GUIDELINE from Dipti. V1.0.0 
+         Hello, Welcome to the demo
         </p>
         <a
           className="App-link"
-          href="https://dipti.com.bd/"
+          href="https://www.linkedin.com/in/mohammad-akif2000/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn More about DIPTI
+          Learn More about Me
         </a>
       </header>
     </div>
