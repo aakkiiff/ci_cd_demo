@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: dipti-client
+  template:
+    metadata:
+      labels:
+        app: dipti-client
+    spec:
+      containers:
+        - name: client
+          image: aakkiiff/dipti_frontend
+          ports:
+            - containerPort: 3000
