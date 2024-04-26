@@ -3,7 +3,7 @@ kind: ClusterConfig
 
 metadata:
   name: demo #cluster name
-  region: ap-south-1 #desired region
+  region: ap-south-1 
 
 nodeGroups:
   - name: ng-1 
