@@ -3,10 +3,10 @@ kind: ClusterConfig
 
 metadata:
   name: demo 
-  region: ap-south-1 #desired region
+  region: ap-south-1 
 
 nodeGroups:
-  - name: ng-1 #cluster node group name
+  - name: ng-1 
     instanceType: t3.xlarge
     desiredCapacity: 1 
     ssh:
