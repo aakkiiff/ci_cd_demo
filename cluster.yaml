@@ -7,7 +7,7 @@ metadata:
 
 nodeGroups:
   - name: ng-1 #cluster node group name
-    instanceType: t3.xlarge #desired instance type
+    instanceType: t3.xlarge
     desiredCapacity: 1 
     ssh:
       allow: false 
