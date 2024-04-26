@@ -8,6 +8,8 @@ pipeline {
 
         CLIENT_APP_NAME = "demo_frontend"
         CLIENT_APP_IMAGE = "${DOCKERHUB_USERNAME}/${CLIENT_APP_NAME}"
+
+        CONFIG_PROJECT_NAME = "demo_config"
      }
 
     stages {
@@ -47,7 +49,7 @@ pipeline {
 
         stage("TRIGGERING THE CONFIG PIPELINE"){
             steps{
-                build job: 'demo_config', parameters: [string(name: 'IMAGE_TAG', value: env.IMAGE_TAG)]
+                build job: ${CONFIG_PROJECT_NAME}, parameters: [string(name: 'IMAGE_TAG', value: env.IMAGE_TAG)]
             }
         }
         
