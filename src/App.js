@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Hello, from cloudOps project!
+         Hello, from cloudOps project !
         </p>
         <a
           className="App-link"
