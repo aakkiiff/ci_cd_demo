@@ -9,14 +9,17 @@ function App() {
         <p>
          Hello, from cloudOps project !
         </p>
-        {/* <a
+        <p>
+         release 2.0
+        </p>
+        <a
           className="App-link"
           href="https://www.linkedin.com/in/mohammad-akif2000/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn More about Me
-        </a> */}
+        </a>
       </header>
     </div>
   );
