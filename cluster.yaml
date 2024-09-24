@@ -6,10 +6,9 @@ metadata:
   region: ap-south-1
 
 nodeGroups:
-  - name: ng-1
-    instanceType: t3.medium
-    desiredCapacity: 2
-    volumeSize: 50
+  - name: ng-1 
+    instanceType: t3.xlarge
+    desiredCapacity: 1
     ssh:
       allow: false
     

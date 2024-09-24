@@ -5,12 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Hello, from cloudOps project !
-        </p>
-        <p>
-         release 2.0
+         Hello, from cloudops project !!!!!!!
+         iam akif
         </p>
         <a
           className="App-link"
@@ -18,6 +16,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          Learn More about Me
+        </a>
           Learn More about Me
         </a>
       </header>
