@@ -8,7 +8,7 @@ function App() {
       <img src={logo} className="App-logo" alt="logo" />
         <p>
          Hello, from cloudops project.
-         version 5
+         final version
         </p>
         <a
           className="App-link"
