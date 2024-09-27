@@ -7,7 +7,7 @@ metadata:
 
 nodeGroups:
   - name: ng-1 
-    instanceType: t3.xlarge
+    instanceType: t3.large
     desiredCapacity: 1
     ssh:
       allow: false
