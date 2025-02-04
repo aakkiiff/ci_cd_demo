@@ -47,7 +47,7 @@ pipeline {
 
         stage("TRIGGERING THE CONFIG PIPELINE"){
             steps{
-                build job: 'demo_config', parameters: [string(name: 'IMAGE_TAG', value: env.IMAGE_TAG)]
+                build job: 'config_pipeline', parameters: [string(name: 'IMAGE_TAG', value: env.IMAGE_TAG)]
             }
         }
         
