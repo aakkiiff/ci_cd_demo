@@ -9,14 +9,14 @@ function App() {
         <p>
          Hello, from devops project.
         </p>
-        <a
+        {/* <a
           className="App-link"
           href="https://www.linkedin.com/in/mohammad-akif2000/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn More about Me!
-        </a>
+        </a> */}
       </header>
     </div>
   );
