@@ -7,16 +7,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Hello, from devops project.
+         Hello, from devops project. version 2!!!!
         </p>
-        {/* <a
+        <a
           className="App-link"
           href="https://www.linkedin.com/in/mohammad-akif2000/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn More about Me!
-        </a> */}
+        </a>
       </header>
     </div>
   );
